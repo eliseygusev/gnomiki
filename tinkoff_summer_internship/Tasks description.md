@@ -1,5 +1,6 @@
 ### 1
 ![1 Задача](/tinkoff_summer_internship/images/1.jpg)
+
 **Решение:**
 ```
 n, m = map(int, input().split())
@@ -7,6 +8,7 @@ print(0 if n == m else n + m - 1)
 ```
 ### 2
 ![2 Задача](/tinkoff_summer_internship/images/2.jpg)
+
 **Решение:**
 ```
 s = input()
@@ -16,6 +18,7 @@ print(s.replace(s[ss_start: ss_end], s[ss_start: ss_end][::-1]))
 ```
 ### 3
 ![3 Задача](/tinkoff_summer_internship/images/3.jpg)
+
 **Решение:**
 ```
 from typing import List
@@ -49,6 +52,7 @@ print(metric)
 ```
 ### 4
 ![4 Задача](/tinkoff_summer_internship/images/4.jpg)
+
 **Решение:**
 ```
 import sys
@@ -74,6 +78,7 @@ print(t - 0.5, t + 0.5)
 ```
 ### 5
 ![5 Задача](/tinkoff_summer_internship/images/5.jpg)
+
 **Решение:**
 ```
 n, m = map(int, input().split())
@@ -95,6 +100,7 @@ print(queries)
 ```
 ### 6
 ![6 Задача](/tinkoff_summer_internship/images/6.jpg)
+
 **Решение:**
 ```
 x, y = map(float, input().split())
@@ -104,6 +110,7 @@ print('YES' if is_land_successfull else 'NO')
 ```
 ### 7
 ![7 Задача](/tinkoff_summer_internship/images/7.jpg)
+
 **Решение:**
 ```
 def dfs(key, tree, result):
